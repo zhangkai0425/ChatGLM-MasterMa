@@ -1,8 +1,6 @@
 from transformers import AutoTokenizer, AutoModel
 import PySimpleGUI as sg
 
-# text1 = sg.popup_get_text('马老师说：',title='松果弹抖闪电鞭')
-# print(text1)
 tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True)
 model = AutoModel.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True).half().cuda()
 
@@ -32,11 +30,3 @@ def ChatBot(model):
             break
     window.close()
 ChatBot(model=model)
-
-# tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True)
-# model = AutoModel.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True).half().cuda()
-# model = model.eval()
-# response, history = model.chat(tokenizer, "你好", history=[])
-# print(response)
-# response, history = model.chat(tokenizer, "晚上睡不着应该怎么办", history=history)
-# print(response)
