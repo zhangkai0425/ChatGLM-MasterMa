@@ -10,6 +10,13 @@ Python	 `Python 3.9.0`
 
 Pytorch	 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
+## 运行方法
+
+```bash
+python MasterMa.py
+```
+
+
 ## GUI界面
 
 没有用Python写过UI，随便搜了一个简单的UI库，在Windows电脑上是这样的结果，感觉Mac和Linux上肯定不会有这么粗糙的界面
