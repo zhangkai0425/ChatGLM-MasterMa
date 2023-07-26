@@ -17,7 +17,6 @@ Pytorch	 `pip install torch torchvision torchaudio --index-url https://download.
 ![ui](image/Readme/ui.png)
 
 ## 运行实例
-ui
 ### 实例1
 
 **英国大理石说**：你好
