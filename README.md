@@ -2,7 +2,7 @@
 
 上班在调试Verilog和硬件，非常漫长，休息时间发现新的windows电脑GPU是RTX A4000，性能也许可以，于是跑一个小的语言模型来试一下，为了好玩，调用ChatGLM-6B封装了一个马老师聊天机器人
 
-### 运行环境
+## 运行环境
 
 GPU	 `NVIDIA RTX A4000  CUDA:12.0.0`
 
@@ -10,15 +10,15 @@ Python	 `Python 3.9.0`
 
 Pytorch	 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
-### GUI界面
+## GUI界面
 
 没有用Python写过UI，随便搜了一个简单的UI库，在Windows电脑上是这样的结果，感觉Mac和Linux上肯定不会有这么粗糙的界面
 
-![1690350125396](image/README/1690350125396.png)
+![1690350125396](image/README/ui.png)
 
-### 运行实例
-
-#### 实例1
+## 运行实例
+ui
+### 实例1
 
 **英国大理石说**：你好
 
@@ -60,7 +60,7 @@ Pytorch	 `pip install torch torchvision torchaudio --index-url https://download.
 
 这些是浑元功法的一些基本练习方法，您可以根据自己的需要和兴趣进行调整。希望这些建议能够帮助您更好地练习浑元功法，如果您还有其他问题，欢迎随时向我请教。
 
-#### 实例2
+### 实例2
 
 **英国大理石说**：马老师，你会写代码吗
 
@@ -121,7 +121,7 @@ print(my_array)
 
 这就是使用希尔排序算法对一个数组进行排序的简单示例。如果您有其他关于希尔排序算法的问题，欢迎随时向我请教。
 
-#### 实例3
+### 实例3
 
 **英国大理石说**：我想学习一下量子计算，能帮我介绍一下超导量子计算的实现方案吗
 
