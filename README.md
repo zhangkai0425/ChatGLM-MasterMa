@@ -14,7 +14,7 @@ Pytorch	 `pip install torch torchvision torchaudio --index-url https://download.
 
 没有用Python写过UI，随便搜了一个简单的UI库，在Windows电脑上是这样的结果，感觉Mac和Linux上肯定不会有这么粗糙的界面
 
-![ui](image/README/ui.png)
+![ui](image/Readme/ui.png)
 
 ## 运行实例
 ui
